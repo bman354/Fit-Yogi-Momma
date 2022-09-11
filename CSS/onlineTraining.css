@@ -1,0 +1,14 @@
+.form {
+    background-color: #343434;
+}
+.gallery {
+    display: flex;
+    justify-content: flex-start;
+    align-items: space-evenly;
+    width: 180px;
+    float: left;
+}
+img {
+    width: 100%;
+    height: auto;
+}

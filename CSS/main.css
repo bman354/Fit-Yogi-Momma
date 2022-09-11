@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+    color: white;
+    text-emphasis-color: white;
+    padding: 0px 2% 2% 2%;
+}
+
+body {
+    margin: 0;
+    background-color:#4E4E4E;
+    color:#4E4E4E;
+}
+
+.headerImage {
+    height: 0;
+    padding: 0;
+    padding-bottom: 20%;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 25%;
+    background-color: black;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0px;
+    text-align: center;
+    border: 2px lightgray;
+    border-style: solid none none none;
+    background-color: #343434;
+    margin-bottom: 20px;
+}
+
+.navButton {
+    font-size: 24px;
+    padding: 0px 10px 10px 10px;
+    border: 1px solid lightgray;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    width: fit-content;
+}
+a:hover {
+    color: white;
+    background-color: #899088;
+    text-decoration: none;
+}
+a:active {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+
+}
+
+.bottomLinks{
+    text-align: center;
+    margin-top: 2%;
+    padding: 2%;
+    background-color:#343434;
+    border: 1px white;
+    border-style: none solid solid solid;
+}
+
+/** 
+#4E4E4E  Light gray main background color
+#343434  Dark Highlighting
+#899088  Nav Button Hover
+**/
+
