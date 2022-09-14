@@ -2,14 +2,20 @@
 <html>
     <head>
         <link rel="stylesheet" href="CSS/main.css">
+        <link rel="stylesheet" href="CSS/onlineTraining.css">
         <meta charset="UTF-8">
         <meta name="description" content="Fit Yogi Momma Sonya Merriman's Website">
         <meta name="keywords" content="Fit, Yogi, Momma, Sonya, Merriman, Yoga, Training">
         <meta name="author" content="Bryce Pinkerton">
         <meta name="viewport" content ="width=device-width, initial-scale=1.0">
         
+
+
         <title>Fit Yogi Momma</title>
     </head>
+
+    <script src="js/form.js" defer></script>
+
 
 <body>
     <div class="headerImage"></div>
@@ -31,7 +37,7 @@
             <label for="email">Email Address</label>
             <input type="email" name="email" id="email" required>
 
-            <input type="submit" value="Submit">
+            <input type="button" id="bt" value="Submit" onclick="saveFile()">
 
         </form>
    
