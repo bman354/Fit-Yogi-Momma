@@ -1,9 +1,0 @@
-input{
-    color: black !important;
-    size: 35pt;
-}
-form {
-    display: grid;
-    align-items: center;
-    width: 33%;
-}
